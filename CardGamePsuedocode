@@ -1,0 +1,19 @@
+
+
+Class Card
+  Enum<T> Value // 1 (A), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (11), Q (12), K (13), 14 (A), Joker (100)
+  Char Suit // 'H', 'D', 'C', 'S' 
+
+Class Deck
+  Card MyDeck[52]
+  
+  Deck CreateDeck()
+  Deck GetDeck()
+  void SuffleDeck()
+  List<Hand> Deal(int players, int cardsPerHand)
+
+
+Class Hand
+  List<Card> cards
+  
+  
